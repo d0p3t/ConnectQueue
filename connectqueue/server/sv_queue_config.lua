@@ -25,7 +25,7 @@ Config.DisableHardCap = true
 Config.ConnectTimeOut = 600
 
 -- will remove players from queue if the server doesn't recieve a message from them within: __ seconds
-Config.QueueTimeOut = 90
+Config.QueueTimeOut = 30
 
 -- will give players temporary priority when they disconnect and when they start loading in
 Config.EnableGrace = false
@@ -34,7 +34,7 @@ Config.EnableGrace = false
 Config.GracePower = 5
 
 -- how long grace time lasts in seconds
-Config.GraceTime = 480
+Config.GraceTime = 180
 
 -- on resource start, players can join the queue but will not let them join for __ milliseconds
 -- this will let the queue settle and lets other resources finish initializing
@@ -47,11 +47,11 @@ Config.ShowTemp = false
 Config.Language = {
     joining = "\xF0\x9F\x8E\x89Joining...",
     connecting = "\xE2\x8F\xB3Connecting...",
-    idrr = "\xE2\x9D\x97[Queue] Error: Couldn't retrieve any of your id's, try restarting.",
-    err = "\xE2\x9D\x97[Queue] There was an error",
+    idrr = "\xE2\x9D\x97Error: Couldn't retrieve any of your id's, try restarting.",
+    err = "\xE2\x9D\x97There was an error",
     pos = "\xF0\x9F\x90\x8CYou are %d/%d in queue \xF0\x9F\x95\x9C%s",
-    connectingerr = "\xE2\x9D\x97[Queue] Error: Error adding you to connecting list",
-    timedout = "\xE2\x9D\x97[Queue] Error: Timed out?",
-    wlonly = "\xE2\x9D\x97[Queue] You must be whitelisted to join this server",
-    steam = "\xE2\x9D\x97 [Queue] Error: Steam must be running"
+    connectingerr = "\xE2\x9D\x97Error: Error adding you to connecting list",
+    timedout = "\xE2\x9D\x97Error: Timed out?",
+    wlonly = "\xE2\x9D\x97You must be whitelisted to join this server",
+    steam = "\xE2\x9D\x97Error: Steam must be running"
 }
